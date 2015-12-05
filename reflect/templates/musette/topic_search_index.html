@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+{% load static %}
+
+{% block extra_js %}
+    <script src="{% static 'endless_pagination/js/module.endless.js' %}"></script>
+    <script src="{% static 'js/modules/musette.module.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="container" ng-app="MusetteApp">
+
+	<div class="row">
+      <ul class="breadcrumb">
+          <li><a href="/forums/">{% trans "Forums" %}</a></li>
+          <li><a href="/forum/{{forum}}/">{{forum}}</a></li>
+          <li class="active">{% trans "Find Topics" %}</li>
+      </ul>
+    </div>
+
+	<div class="endless_page_template">
+		<div class="panel panel-default" >
+	        <div class="panel-heading">
+	            <div class="panel-title text-center">{% trans "Find Topics" %}</div>
+	        </div>
+	        <div class="panel-body" endless-pagination="{'paginateOnScroll': true}">
+	        	{% include "musette/topic_search.html" %}
+	        </div>
+	    </div>
+	</div>
+</div>
+{% endblock %}
