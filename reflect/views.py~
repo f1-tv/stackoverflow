@@ -172,7 +172,8 @@ def embedcomments(request, base=None, version=None, f=None, t_i=None, t_u=None,t
 
 '''if page_url:
             thread, created = Thread.objects.get_or_create(forum=forum, url=page_url, identifier=identifier, documentTitle=documentTitle, category=category,createdAt=timezone.now() sortOrder=sortOrder, language=language, title=final_title, slug=slug,) 
-            thread.save()'''
+            thread.save()
+'''
 
 
 

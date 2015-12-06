@@ -157,11 +157,7 @@ def embedcomments(request, base=None, version=None, f=None, t_i=None, t_u=None,t
     sortOrder = request.GET.get('s_o')
     language = request.GET.get('l')
 
-    if forum_name:
-        forum = get_object_or_404(Forum, name=forum_name) 
-                #https://docs.djangoproject.com/en/1.8/topics/http/shortcuts/#get-object-or-404
-        
-        return render_to_response('embedcomments.html')
+    return render_to_response('embedcomments.html')
  
 
 
