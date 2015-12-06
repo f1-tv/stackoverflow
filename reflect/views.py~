@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
+from django.views.generic import View
+
 from .models import Post, Category, Thread, Forum, Settings, Cursor, Response, Threaddata, Feature, Forumdata, Session
 
 from .serializers import PostSerializer, ThreadSerializer,CursorSerializer,ResponseSerializer,ThreaddataSerializer, SettingsSerializer, ForumSerializer, FeatureSerializer, SessionSerializer, ForumdataSerializer

@@ -17,7 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 
-from reflect.views import Jav, Java, Sty, Javar, Styl, Style, Javasr, Javascr, Javascri, Javascrip, Javascript, Styler, Styleri, Styleris, Stylerist, Javascripti
+from reflect.views import Jav, Java, Sty, Javar, Styl, Style, Javasr, Javascr, Javascri, Javascrip, Javascript, Styler, Styleri, Styleris, Stylerist, Javascripti, Embed, Count
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
@@ -41,4 +41,6 @@ urlpatterns = [
     url(r'^next/embed/styles/discovery.1fe89d176a9928445563cdce9d8680d4.css', Styleris.as_view()),
     url(r'^next/embed/styles/discovery_rtl.916d71fb6963105e91d0516bd34ad29a.css', Stylerist.as_view()),
     url(r'^next/embed/adclient.bundle.9e7c14d0b6675e0a0d79a343c80a0b8a.js', Javascripti.as_view()),
+    url(r'^embed.js', Embed.as_view()),
+    url(r'^count.js', Count.as_view()),
 ]

@@ -116,3 +116,13 @@ class Javascripti(View):
     def get(self, request):
         return render(request, 'adclient.bundle.9e7c14d0b6675e0a0d79a343c80a0b8a.js')
 
+
+
+
+class Embed(View):
+    def get(self, request):
+        return render(request, 'embed.js')
+
+class Count(View):
+    def get(self, request):
+        return render(request, 'count.js')
