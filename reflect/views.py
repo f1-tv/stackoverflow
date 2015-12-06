@@ -161,7 +161,7 @@ def embedcomments(request, base=None, version=None, f=None, t_i=None, t_u=None,t
         forum = get_object_or_404(Forum, name=forum_name) 
                 #https://docs.djangoproject.com/en/1.8/topics/http/shortcuts/#get-object-or-404
         if page_url:
-            topic, created = Topic.objects.get_or_create(forum=forum, url=page_url, identifier=identifier, documentTitle=documentTitle, category=category,createdAt=timezone.now() sortOrder=sortOrder, language=language, title=final_title, slug=slug,) 
+            thread, created = Thread.objects.get_or_create(forum=forum, url=page_url, identifier=identifier, documentTitle=documentTitle, category=category,createdAt=timezone.now() sortOrder=sortOrder, language=language, title=final_title, slug=slug,) 
             topic.save()
         return render_to_response('embedcomments.html')
  
