@@ -17,7 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 
-from reflect.views import Jav, Java, Sty, Javar, Styl, Style, Javasr, Javascr, Javascri, Javascrip, Javascript, Styler, Styleri, Styleris, Stylerist, Javascripti, Embed, Count
+from reflect.views import Jav, Java, Sty, Javar, Styl, Style, Javasr, Javascr, Javascri, Javascrip, Javascript, Styler, Styleri, Styleris, Stylerist, Javascripti, Embed, Count, embedcomments
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
