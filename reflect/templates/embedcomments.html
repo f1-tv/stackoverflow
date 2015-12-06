@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]><html lang="en" dir="ltr" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" dir="ltr" class="ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html lang="en" dir="ltr"><!--<![endif]-->
+
+<head>
+    <title>Reflect Comments</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    
+    
+    <style>
+        html {
+            overflow: hidden;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    
+
+    
+    <!--[if lt IE 10]><p style="color: #fff; background-color: #f05f70; padding: 10px; margin-top: 20px;">
+        You're using a browser that Disqus plans to stop supporting soon. For more information, visit our list of 
+        <a href="https://help.disqus.com/customer/portal/articles/466228-which-browsers-does-disqus-work-with-" style="color: #fff; text-decoration: underline;">supported browsers</a>
+        and consider upgrading.
+    </p><![endif]-->
+    <div id="error" style="display:none; text-align: center">
+        <p>We were unable to load Disqus. If you are a moderator please see our <a href="https://docs.disqus.com/help/83/"> troubleshooting guide</a>. </p>
+    </div>
+
+    
+    <script type="text/json" id="disqus-forumData">{"session":{"canModerate":false,"audienceSyncVerified":false,"mustVerify":false,"canReply":true,"mustVerifyEmail":false},"features":{"sso":true},"forum":{"category":"Others","description":null,"founder":"125375166","settings":{"supportLevel":1,"adsDRNativeEnabled":false,"disable3rdPartyTrackers":false,"moderatorText":"","ssoRequired":false,"linkAffiliationEnabled":true,"hasCustomAvatar":false,"organicDiscoveryEnabled":true,"colorScheme":"auto","discoveryMax":false,"discoverySettingsUrl":"https://onemoreplease.disqus.com/admin/settings/ads/","adsVideoEnabled":false,"allowAnonPost":false,"allowMedia":true,"promotedDiscoveryEnabled":false,"allowAnonVotes":false,"mustVerify":false,"mustVerifyEmail":false,"discoveryVariant":"default","adsBannerEnabled":false,"audienceSyncEnabled":false,"typeface":"auto","discoveryLocked":false,"discoveryThumbnailsEnabled":false,"isVIP":false},"url":"","guidelines":null,"favicon":{"permalink":"http://disqus.com/api/forums/favicons/onemoreplease.jpg","cache":"//a.disquscdn.com/1447806948/images/favicon-default.png"},"language":"en","avatar":{"small":{"permalink":"http://disqus.com/api/forums/avatars/onemoreplease.jpg?size=32","cache":"//a.disquscdn.com/1447806948/images/noavatar32.png"},"large":{"permalink":"http://disqus.com/api/forums/avatars/onemoreplease.jpg?size=92","cache":"//a.disquscdn.com/1447806948/images/noavatar92.png"}},"pk":"3896566","signedUrl":"","raw_guidelines":null,"id":"onemoreplease","channel":null,"name":"onemoreplease"}}</script>
+
+    
+    <script type="text/json" id="disqus-threadData">somelink for the list of comments in the thread</script>
+
+
+
+
+function getJSONP(url, success) {
+
+    var ud = '_' + +new Date,
+        script = document.createElement('script'),
+        head = document.getElementsByTagName('head')[0] 
+               || document.documentElement;
+
+    window[ud] = function(data) {
+        head.removeChild(script);
+        success && success(data);
+    };
+
+    script.src = url.replace('callback=?', 'callback=' + ud);
+    head.appendChild(script);
+
+}
+          
+getJSONP('http://soundcloud.com/oembed?url=http%3A//soundcloud.com/forss/flickermood&format=js&callback=?', function(data){
+    console.log(data);
+});  
+
+
+
+    
+
+    <div id="fixed-content"></div>
+
+
+    
+        
+        <!--[if lte IE 8]>
+<script src="//a.disquscdn.com/1447806948/build/vendor/ie8.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<script src="//a.disquscdn.com/1447806948/build/vendor/ie9.js"></script>
+<![endif]-->
+
+        
+<script type="text/json" id="disqus-urls">{
+    "root":"//disqus.com",
+    "next":"//ryflection.com/next/current/embed"
+}</script>
+
+        <script src="//ryflection.com/next/embed/lounge.load.104feca2c767b6d7ee0b10d93beeec41.js" id="bootstrap-script" data-app="lounge" async></script>
+    
+</body>
+</html>
+

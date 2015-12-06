@@ -163,7 +163,7 @@ def embedcomments(request, base=None, version=None, f=None, t_i=None, t_u=None,t
         if page_url:
             topic, created = Topic.objects.get_or_create(forum=forum, url=page_url, identifier=identifier, documentTitle=documentTitle, category=category,createdAt=timezone.now() sortOrder=sortOrder, language=language, title=final_title, slug=slug,) 
             topic.save()
-        return render_to_response('topic_comments.html')
+        return render_to_response('embedcomments.html')
  
 
 
