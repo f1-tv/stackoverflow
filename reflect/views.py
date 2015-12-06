@@ -6,6 +6,9 @@ from .models import Post, Category, Thread, Forum, Settings, Cursor, Response, T
 
 from .serializers import PostSerializer, ThreadSerializer,CursorSerializer,ResponseSerializer,ThreaddataSerializer, SettingsSerializer, ForumSerializer, FeatureSerializer, SessionSerializer, ForumdataSerializer
 
+
+from django.shortcuts import get_object_or_404
+
 from rest_framework import viewsets
 
 class PostViewSet(viewsets.ModelViewSet):
@@ -126,3 +129,80 @@ class Embed(View):
 class Count(View):
     def get(self, request):
         return render(request, 'count.js')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def embedcomments(request, base=None, version=None, f=None, t_i=None, t_u=None,t_s=None, t_e=None, t_d=None, t_t=None,t_c=None, s_o=None, l=None):
+    base = request.GET.get('base')
+    version = request.GET.get('version')
+    forum_name = request.GET.get('f')
+    identifier = request.GET.get('t_i')
+    page_url = request.GET.get('t_u')
+    slug = request.GET.get('t_e')
+    title = request.GET.get('t_e')
+    documentTitle = request.GET.get('t_d')
+    final_title = request.GET.get('t_t')
+    category = request.GET.get('t_c')
+    sortOrder = request.GET.get('s_o')
+    language = request.GET.get('l')
+
+    if forum_name:
+        forum = get_object_or_404(Forum, name=forum_name) 
+                #https://docs.djangoproject.com/en/1.8/topics/http/shortcuts/#get-object-or-404
+        if page_url:
+            topic, created = Topic.objects.get_or_create(forum=forum, url=page_url, identifier=identifier, documentTitle=documentTitle, category=category,createdAt=timezone.now() sortOrder=sortOrder, language=language, title=final_title, slug=slug,) 
+            topic.save()
+        return render_to_response('topic_comments.html')
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

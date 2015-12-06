@@ -116,3 +116,79 @@ class Javascripti(View):
     def get(self, request):
         return render(request, 'adclient.bundle.9e7c14d0b6675e0a0d79a343c80a0b8a.js')
 
+
+
+
+class Embed(View):
+    def get(self, request):
+        return render(request, 'embed.js')
+
+class Count(View):
+    def get(self, request):
+        return render(request, 'count.js')
+
+
+
+
+
+
+
+
+
+
+
+
+def create_thread(request):
+    forum = request.validated.get('forum')
+    url = request.validated.get('url')
+    title = request.validated.get('title')
+    slug = request.validated.get('slug')
+    category_id = request.validated.get('category_id')
+    identifier = request.validated.get('identifier')
+    language = request.validated.get('language')
+    api_key = request.validated.get('api_key')
+    remote_auth_s3 = request.validated.get('remote_auth_s3')
+    author_s3 = request.validated.get('author_s3')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

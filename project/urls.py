@@ -17,11 +17,12 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 
-from reflect.views import Jav, Java, Sty, Javar, Styl, Style, Javasr, Javascr, Javascri, Javascrip, Javascript, Styler, Styleri, Styleris, Stylerist, Javascripti, Embed, Count
+from reflect.views import Jav, Java, Sty, Javar, Styl, Style, Javasr, Javascr, Javascri, Javascrip, Javascript, Styler, Styleri, Styleris, Stylerist, Javascripti, Embed, Count, embedcomments
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^' , include('reflect.urls')),
+    url(r'embed/comments/[base=](?P<base>\w+)&[version=](?P<version>\w+)&[f=](?P<f>\w+)&[[t_i=](?P<t_i>\w+)&]?[t_u=](?P<t_u>\w+)&[[t_s=](?P<t_s>\w+)&]?[[t_e=](?P<t_e>\w+)&]?[[t_d=](?P<t_d>\w+)&]?[t_t=](?P<t_t>\w+)&[[t_c=](?P<t_c>\w+)&]?[s_o=](?P<s_o>\w+)&[[l=](?P<l>\w+)&]?$', views.embedcomments,),
 
 
 #for javascript
