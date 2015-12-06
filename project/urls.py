@@ -16,6 +16,9 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
+
+from reflect.views import Jav, Java, Sty, Javar, Styl, Style, Javasr, Javascr, Javascri, Javascrip, Javascript, Styler, Styleri, Styleris, Stylerist, Javascripti
+
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^' , include('reflect.urls')),
