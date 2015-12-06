@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<!--[if IE 8]><html lang="en" dir="ltr" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" dir="ltr" class="ie9"><![endif]-->
+<!--[if gt IE 9]><!--><html lang="en" dir="ltr"><!--<![endif]-->
+
+<head>
+    <title>Reflect Comments</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    
+    
+    <style>
+        html {
+            overflow: hidden;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    
+
+    
+    <!--[if lt IE 10]><p style="color: #fff; background-color: #f05f70; padding: 10px; margin-top: 20px;">
+        You're using a browser that Disqus plans to stop supporting soon. For more information, visit our list of 
+        <a href="https://help.disqus.com/customer/portal/articles/466228-which-browsers-does-disqus-work-with-" style="color: #fff; text-decoration: underline;">supported browsers</a>
+        and consider upgrading.
+    </p><![endif]-->
+    <div id="error" style="display:none; text-align: center">
+        <p>We were unable to load Disqus. If you are a moderator please see our <a href="https://docs.disqus.com/help/83/"> troubleshooting guide</a>. </p>
+    </div>
+
+    
+    <script type="text/json" id="reflect-forumData">{"session":{"canModerate":false,"audienceSyncVerified":false,"mustVerify":false,"canReply":true,"mustVerifyEmail":false},"features":{"sso":true},"forum":{"category":"","description":"\u003cp>Breaking News and Breaking Opinion\u003c/p>","founder":"8317761","settings":{"supportLevel":3,"adsDRNativeEnabled":false,"disable3rdPartyTrackers":false,"moderatorText":"","ssoRequired":false,"linkAffiliationEnabled":false,"hasCustomAvatar":false,"organicDiscoveryEnabled":true,"colorScheme":"auto","discoveryMax":false,"discoverySettingsUrl":"https://firstpost.disqus.com/admin/settings/ads/","adsVideoEnabled":false,"allowAnonPost":false,"allowMedia":false,"promotedDiscoveryEnabled":false,"allowAnonVotes":false,"mustVerify":true,"mustVerifyEmail":true,"discoveryVariant":"default","adsBannerEnabled":false,"audienceSyncEnabled":false,"typeface":"auto","discoveryLocked":false,"discoveryThumbnailsEnabled":false,"isVIP":false},"url":"http://firstpost.com","guidelines":null,"favicon":{"permalink":"http://disqus.com/api/forums/favicons/firstpost.jpg","cache":"//a.disquscdn.com/uploads/forums/71/9668/favicon.png"},"language":"en","avatar":{"small":{"permalink":"http://disqus.com/api/forums/avatars/firstpost.jpg?size=32","cache":"//a.disquscdn.com/1449264270/images/noavatar32.png"},"large":{"permalink":"http://disqus.com/api/forums/avatars/firstpost.jpg?size=92","cache":"//a.disquscdn.com/1449264270/images/noavatar92.png"}},"pk":"719668","signedUrl":"http://disq.us/?url=http%3A%2F%2Ffirstpost.com&key=DJJB4-rIZEPNeREgETESGg","raw_guidelines":null,"id":"firstpost","channel":null,"name":"FIRSTPOST"}}</script>
+
+    
+    <script type="text/json" id="reflect-threadData">{"cursor":{"hasPrev":false,"prev":null,"total":1,"hasNext":false,"next":"1:0:0"},"code":0,"response":{"lastModified":1449410779,"posts":[{"forum":"firstpost","parent":null,"isApproved":true,"author":{"username":"jaffa4","about":"","name":"Jaffa","disable3rdPartyTrackers":false,"isPowerContributor":false,"isAnonymous":false,"rep":1.2067109999999999,"profileUrl":"https://disqus.com/by/jaffa4/","url":"","reputation":1.2067109999999999,"location":"","isPrivate":true,"signedUrl":"","isPrimary":true,"joinedAt":"2014-10-12T08:58:55","id":"125375166","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/jaffa4.jpg","cache":"//a.disquscdn.com/uploads/users/12537/5166/avatar32.jpg?1435566521"},"isCustom":true,"permalink":"http://disqus.com/api/users/avatars/jaffa4.jpg","cache":"//a.disquscdn.com/uploads/users/12537/5166/avatar92.jpg?1435566521","large":{"permalink":"http://disqus.com/api/users/avatars/jaffa4.jpg","cache":"//a.disquscdn.com/uploads/users/12537/5166/avatar92.jpg?1435566521"}}},"media":[],"isDeleted":false,"isFlagged":false,"dislikes":0,"raw_message":"Just a comment. Otherwise, this comments section would look empty which no one likes","createdAt":"2015-12-06T14:06:19","id":"2396161220","thread":"4380407763","depth":0,"numReports":0,"isDeletedByAuthor":false,"likes":0,"isEdited":false,"message":"\u003cp>Just a comment. Otherwise, this comments section would look empty which no one likes\u003c/p>","isSpam":false,"isHighlighted":false,"points":0}],"thread":{"feed":"https://firstpost.disqus.com/kotla_test_talking_points_rahane_steals_the_show_amla_stubborn_and_indian_bowlers_struggle/latest.rss","uploadAdd":"//firstpost.disqus.com/thread/kotla_test_talking_points_rahane_steals_the_show_amla_stubborn_and_indian_bowlers_struggle/async_media_upload/","identifiers":["article_2535222"],"dislikes":0,"likes":0,"message":"","isSpam":false,"isDeleted":false,"category":"731512","clean_title":"Kotla Test, talking points: Rahane steals the show, Amla stubborn and Indian bowlers struggle","userScore":0,"userSubscription":false,"id":"4380407763","signedLink":"http://disq.us/?url=http%3A%2F%2Fwww.firstpost.com%2Fsports%2Fkotla-test-talking-points-rahane-steals-the-show-amla-stubborn-and-indian-bowlers-struggle-2535222.html&key=BCCBT1eN0qpSnDAim9Emwg","createdAt":"2015-12-06T13:52:51","hasStreaming":false,"uploadRemove":"//firstpost.disqus.com/thread/kotla_test_talking_points_rahane_steals_the_show_amla_stubborn_and_indian_bowlers_struggle/async_media_remove/","raw_message":"","isClosed":false,"link":"http://www.firstpost.com/sports/kotla-test-talking-points-rahane-steals-the-show-amla-stubborn-and-indian-bowlers-struggle-2535222.html","slug":"kotla_test_talking_points_rahane_steals_the_show_amla_stubborn_and_indian_bowlers_struggle","forum":"firstpost","author":"8317761","posts":1,"moderators":[137409056,8317761,156367364,99362824,156367211,137519127],"title":"Kotla Test, talking points: Rahane steals the show, Amla stubborn and Indian bowlers struggle","highlightedPost":null}},"order":"desc"}</script>
+
+    
+
+    <div id="fixed-content"></div>
+
+
+    
+        
+        <!--[if lte IE 8]>
+<script src="//a.disquscdn.com/1449264270/build/vendor/ie8.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<script src="//a.disquscdn.com/1449264270/build/vendor/ie9.js"></script>
+<![endif]-->
+
+        
+<script type="text/json" id="disqus-urls">{
+    "root":"//ryflection.com",
+    "next":"//ryflection.com/next/current/embed"
+}</script>
+
+        <script src="//ryflection.com/next/embed/lounge.load.104feca2c767b6d7ee0b10d93beeec41.js" id="bootstrap-script" data-app="lounge" async></script>
+    
+</body>
+</html>
+
+
+
+
+
+
